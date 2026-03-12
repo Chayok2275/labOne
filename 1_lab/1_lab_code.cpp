@@ -13,7 +13,7 @@ std::string func(const std::string& input) {
             [](char c) {
                 // Оставляем пробелы и буквенно-цифровые символы
                 // Удаляем всё остальное
-                return !(c == ' ' || std::isalnum(c));
+                return !(c == ' ' || std::iswalnum(c));
             }
         ),
         result.end()
