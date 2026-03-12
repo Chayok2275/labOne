@@ -2,6 +2,7 @@
 #include <string>
 #include <cctype>
 #include <algorithm>
+#include <clocale>
 
 std::string func(const std::string& input) {
     std::string result = input;
@@ -22,6 +23,8 @@ std::string func(const std::string& input) {
 }
 
 int main() {
+    setlocale(LC_ALL, "ru_RU.UTF-8"); // чтоб видел русские буквы
+
     std::string text;
     
     std::cout << "Введите строку: ";
