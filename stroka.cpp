@@ -22,7 +22,7 @@ int funcNumVowels(const wstring& inStr, const wstring& vowels){
 }
 
 
-int main(){
+int main(){  // основная функция
     setlocale(LC_ALL, "ru_RU.UTF-8"); // чтоб видел русские буквы
 
     wstring vowels = L"АаОоУуЫыЭэИиЯяЁёЕеЮюAaOoYyUuEeIi"; 
