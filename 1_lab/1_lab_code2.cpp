@@ -16,7 +16,7 @@ wstring func(const wstring& input) {
     return result;
 }
 
-int main() {
+int main()  { // test
     // поддержка русского языка
     locale::global(std::locale("ru_RU.UTF-8"));
     
